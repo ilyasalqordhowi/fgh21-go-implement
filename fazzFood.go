@@ -27,7 +27,10 @@ var discount int
 	if pajak {
 		taxs = harga * 5/100 
 	}
-	fmt.Printf("harga %d,voucher %d,jarak %d,pajak %d",harga,discount,delivery,taxs)
+	fmt.Printf("harga  :%d\n",harga)
+	fmt.Printf("voucher : %d\n",discount)
+	fmt.Printf("biaya pengiriman : %d\n",delivery)
+	fmt.Printf("pajak : %d\n",taxs)
 }
 	
 
