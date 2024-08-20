@@ -18,7 +18,6 @@ name string
 func Survey() {
 	survey := []Bio{
 		Bio{
-
 			name:     "ilyas",
 			age:      18,
 			gender:   "laki-laki",
@@ -59,7 +58,6 @@ func Survey() {
 			},
 		},
 		Bio{
-
 			name:     "ilyas",
 			age:      18,
 			gender:   "laki-laki",
@@ -71,7 +69,6 @@ func Survey() {
 			},
 		},
 		Bio{
-
 			name:     "ilyas",
 			age:      18,
 			gender:   "laki-laki",
@@ -83,8 +80,7 @@ func Survey() {
 			},
 		},
 		Bio{
-
-			name:     "ilyas",
+			name:     "ilyas ",
 			age:      18,
 			gender:   "laki-laki",
 			isSmoker: false,
@@ -120,6 +116,7 @@ func Survey() {
 		}
 		fmt.Println("")
 	}
+
 	fmt.Println(survey[4].Skillset[2].name)
 	fmt.Println(survey[0].Skillset[0].name)
 }
